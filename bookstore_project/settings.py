@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     #Local
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'books.apps.BooksConfig'
 
 ]
 
@@ -171,3 +172,4 @@ ACCOUNT_UNIQUE_EMAIL = True
 DEFAULT_FROM_EMAIL='admin@djangobookstore.com'
 
 
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
