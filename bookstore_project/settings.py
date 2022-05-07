@@ -173,3 +173,8 @@ DEFAULT_FROM_EMAIL='admin@djangobookstore.com'
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
+#Pillow
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
